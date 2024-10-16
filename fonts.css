@@ -1,0 +1,7 @@
+@font-face{
+    font-family: shivani;
+    src: url(../Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+p{
+    font-family: shivani;
+}

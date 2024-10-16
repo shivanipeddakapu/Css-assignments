@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.maincontainer
+{
+/* position: fixed; */
+background-color:white;
+
+}
+
+.marquee1{
+    display: flex;
+    width: 100%;
+    background-color: #FAC44B;    
+    /* z-index: 1; */
+}
+#search{
+    height: 50px;
+    width: 180px;
+    background-color: whitesmoke;
+}
+.container1{
+    height: 80px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container2{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #FAC44B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container_3{
+    margin-top: 10px;
+    width: 100%;
+    
+}
+h2{
+    margin-top: 10px;
+    margin-left: 500px;
+}
+.container_4{
+margin-top: 50px;
+display: flex;
+justify-content: space-around;
+
+}
+.p1{
+    border: 1px solid whitesmoke;
+}
+.rates{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px 10px 10px;
+
+}
+.rate1 span{
+    color: rgb(230, 74, 12);
+}
+#ratebtn{
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    border: none;
+    width: 130px;
+    margin-left: 40px;
+
+}
+.rates .raki1{
+border: 1px solid whitesmoke;
+}
+.rakhi_spcl{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px 10px 10px;
+}
+.spcl{
+    margin: 50px 500px 50px 500px;
+}
+.premium1{
+    border: 1px solid whitesmoke;
+}
+.premium{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px 10px 10px;
+}
+.pre1{
+    padding: 15px 10px 10px 10px;
+}
+.sweet1{
+    display: flex;
+    justify-content: space-around;
+}
+.sweet_names{
+    display: flex;
+    justify-content: space-around;
+}
+.minute{
+    display: flex;
+    justify-content: space-evenly;
+
+   margin-left: 50px;
+    margin-right: 50px;
+}
+#mom{
+   padding-left: 150px;
+}
+.boy{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.para{
+    display: flex;
+    justify-content: space-around;
+}
+.para1{
+    margin-left: 50px;
+    line-height: 30px;
+}
+.para #ratebtn{
+    align-items: center;
+    width: 80px;
+    margin-left: -5px;
+    
+}
+.container5{
+    margin-top: 40px;
+    height: 150px;
+    width: 100%;
+    background-color: #FAC44B;
+    
+}
+.cont{
+    margin-left: 500px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 25px; 
+}
+h6{
+    font-weight: 100;
+    font-size: 15px;
+    
+}
+.label{
+    position: relative;
+    left: 400px;
+    height: 120px;
+    width:50%;
+}
+
+.signup{
+    background-color:#FAC44B;
+    width: 100%;
+    height: 200px;
+}
+.sign,.want{
+    margin-left: 300px;
+}
+.mail{
+    margin-left: 50px;
+    padding: 10px 30px 10px 30px;
+}
+.input{
+    margin-top: 60px;
+}
+.subscribe{
+    padding: 10px 30px 10px 30px;
+    background-color: #FAC44B;
+    color: white;
+}
+.foot{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+

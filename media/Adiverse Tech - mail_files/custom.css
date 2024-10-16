@@ -1,0 +1,362 @@
+html,
+body,
+* {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-6 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+}
+
+.service-6 h1,
+.service-6 h2,
+.service-6 h3,
+.service-6 h4,
+.service-6 h5,
+.service-6 h6 {
+    color: #3e4555;
+}
+
+.service-6 .font-weight-medium {
+    font-weight: 500;
+}
+
+.service-6 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.service-6 a {
+    text-decoration: none;
+}
+
+.service-6 .wrap-service6-box {
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+}
+
+.service-6 .wrap-service6-box .card-body {
+    padding: 30px;
+}
+
+.service-6 .wrap-service6-box .card-body .linking {
+    color: #ffffff;
+}
+
+.service-6 .wrap-service6-box .card-body .linking:hover {
+    color: #263238;
+}
+
+.service-6 .wrap-service6-box .card-body p {
+    opacity: 0.8;
+}
+
+.service-6 .wrap-service6-box:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.service-6 .bg-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient(
+        legacy-direction(to right),
+        #ff4d7e 0%,
+        #ff6a5b 100%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#ff4d7e),
+        to(#ff6a5b)
+    );
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.service-6 .bg-info-gradiant {
+    background: #188ef4;
+    background: -webkit-linear-gradient(
+        legacy-direction(to right),
+        #188ef4 0%,
+        #316ce8 100%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#188ef4),
+        to(#316ce8)
+    );
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.service-6 .bg-success-gradiant {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(
+        legacy-direction(to right),
+        #2cdd9b 0%,
+        #1dc8cc 100%
+    );
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#2cdd9b),
+        to(#1dc8cc)
+    );
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+}
+
+.service-6 .btn-outline-success {
+    color: #2cdd9b !important;
+    background-color: transparent;
+    border-color: #2cdd9b !important;
+}
+
+.service-6 .btn-outline-success:hover {
+    background: #2cdd9b;
+    border-color: #2cdd9b;
+    color: #ffffff !important;
+}
+
+.service-6 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.subtitle {
+    font-weight: "300 !important";
+}
+
+@media (max-width: 768px) {
+    #testimonials {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .intro {
+        margin-top: 50px;
+    }
+
+    .testcard {
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstset img {
+        display: flex;
+        margin-left: 80px;
+    }
+    .secondset img {
+        display: flex;
+        margin-left: 80px;
+    }
+    .thirdset img {
+        display: flex;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-link {
+        font-size: 16px !important;
+    }
+
+    .nav-item {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .header-bannerimage {
+        width: 400px !important;
+    }
+
+    .footer-lists {
+        list-style-type: none !important;
+    }
+
+    .section-header {
+        padding: 0 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .featured {
+        margin-top: "0px";
+    }
+
+    .companylogo {
+        text-align: center;
+    }
+
+    .securitylogo {
+        margin-top: 20px;
+    }
+
+    .carouselwidth {
+        max-width: 30rem;
+    }
+
+    .showcase {
+        margin: 50px 0;
+    }
+
+    .growfinlogos {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.mainContainer {
+    margin: 10px;
+}
+
+.mainContainer .container {
+    padding: 40px 0;
+}
+
+.mainContainer .container img {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div h3 {
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+nav a.active {
+    color: #fd5825 !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    background-color: none !important;
+}
+
+nav a:hover {
+    color: #fd5825 !important;
+    background-color: none !important;
+}
+
+.warning {
+    color: #fd5825 !important;
+}
+
+.warning:hover {
+    background: #fd5825 !important;
+    color: white !important;
+}
+
+.dark {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.light {
+    background-color: #fff !important;
+    color: #333 !important;
+}
